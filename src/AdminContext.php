@@ -281,7 +281,7 @@ class AdminContext extends AnonymousContext implements Context, SnippetAccepting
    */
   public function iClickTheTab($tabName) {
     /** @var \Behat\Mink\Element\NodeElement[] $tabs */
-    $tabs = $this->getSession()->getPage()->findAll('css', '.vertical-tabs__menu, .horizontal-tabs__menu');
+    $tabs = $this->getSession()->getPage()->findAll('css', '.vertical-tabs__menu, .horizontal-tabs__menu, .horizontal-tab-button');
 
     foreach ($tabs as $tab) {
       if ($tab->findLink($tabName)) {
