@@ -5,7 +5,7 @@
   "license": "GPL-2.0+",
   "require": {
     "drupal/core": "^8.3",
-    "drupal/drupal-extension": "^3.2"
+    "drupal/drupal-extension": "^4.0"
   },
   "minimum-stability": "dev",
   "prefer-stable": true,
